@@ -1,5 +1,5 @@
-# sourceMem
-fMRI scripts to run source memory decision task: a paradigm developed to understand the relationship between item memory and source confidence. 
+# Source Memory Confidence
+fMRI scripts to run source memory decision task: a paradigm developed to understand the relationship between item memory and source confidence. This repository contains only source code for the experimental tasks, and does **not** include required stimuli (word lists and image stimuli).
 
 **The study phase is comprised of two tasks:**
 1. Passive viewing: item-word pairs are presented on the screen for 2 seconds. No task. 12 trials.
@@ -16,3 +16,5 @@ In the study phase, a single run in the scanner is comprised of one block of pas
 Null task is completed after each trial here, too. 
 
 Each block of confidence judegments in a single run and takes about 2.5 minutes to complete. 14 runs total (7 item, and 7 source)
+
+Note: there are two ways to run the experiment. The 'RunFullExperiment' scripts will run the complete study and test phases with no pauses in the sequence of tasks. If, however, the task crashes and you need to restart one of the tasks, you can use the '_testcode' scripts to restart that block.'
