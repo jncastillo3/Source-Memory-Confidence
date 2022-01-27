@@ -1,11 +1,11 @@
 # Source Memory Confidence
-fMRI scripts to run source memory decision task: a paradigm developed to understand the relationship between item memory and source confidence. This repository contains only source code for the experimental tasks, and does **not** include required stimuli (word lists and image stimuli).
+fMRI scripts to run recognition and source memory decision task: a paradigm developed to understand the relationship between item memory and source confidence. This repository contains only source code for the experimental tasks, and does **not** include required stimuli (word lists and image stimuli).
 
 **The study phase is comprised of two tasks:**
-1. Passive viewing: item-word pairs are presented on the screen for 2 seconds. No task. 12 trials.
-2. Source Recall: each word from the passive view is presented and subjects have 2 seconds to recall whether it was studied with a face or a scene. 12 trials.
+1. Passive viewing: item-word pairs are presented on the screen for 2 seconds. 12 trials per block.
+2. Source Recall: each word from the passive view is presented and subjects have 2 seconds to recall whether it was studied with a face or a scene. 12 trials per block.
 
-After each trial, a null task in completed. A number of asterisks 1-4 appear on screen and subjects respond with how many stars are presented. The number of null trials completed after each study trial varies, and depends on the length of the ISI determined by OptSeq. Each trial lasts 1.5 seconds. 
+Inbetween each trial, a 'null' stars task is completed. A number of asterisks 1-4 appear on screen and subjects respond with how many stars are presented. The number of null trials completed after each study trial varies, and depends on the length of the inter-stimulus interval (ISI) determined by OptSeq. Each trial lasts 1.5 seconds. 
 
 In the study phase, a single run in the scanner is comprised of one block of passive viewing, and one block of source recall, totalling 3 minutes. 7 runs total. 
 
